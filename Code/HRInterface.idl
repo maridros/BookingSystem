@@ -1,0 +1,6 @@
+interface HRInterface {
+	string listFunction();
+	long long bookFunction(in string type, in long number, in string name);
+	string guestsFunction();
+	string cancelFunction(in string type, in long number, in string name);
+};
